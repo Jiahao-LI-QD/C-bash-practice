@@ -1,0 +1,37 @@
+Script started on Fri 10 Jan 2020 04:44:41 PM EST
+]2;ea66:/eecs/home/jiahao18/EECS2032ea66 253 % ls ~/
+[0m[38;5;27m2200[0m     [38;5;27mDocuments[0m  [38;5;27meclipse-workspace[0m  [38;5;27mEECS2030-workspace[0m  [38;5;27mMusic[0m     [38;5;27mPublic[0m     [38;5;27munixstuff[0m  [38;5;27mwww[0m
+[38;5;27mDesktop[0m  [38;5;27mDownloads[0m  [38;5;27mEECS2021[0m           [38;5;27mEECS2032[0m            [38;5;27mPictures[0m  [38;5;27mTemplates[0m  [38;5;27mVideos[0m
+ea66 254 % ls p[Kgrep[K[K[K[K*[K~/* grep[K[K[K[K| [K | grep "A"[K[K[KA | wc A[K-w
+0
+ea66 255 % Text Editor
+Text: Command not found.
+ea66 256 % t1.txt[K[K[K[K[K[Kt1.txt[K[K[K[K[K[Kwc -w t1.txt 
+9 t1.txt
+ea66 257 % cat [K[K[Kcaat[K[Kt t1.txt 
+ahgasighasog
+gashgasighasi
+gashgisahgiasg
+gashgiashgias
+eqwue9qwueqw
+ngnsaashbias
+ghhhrahras
+hhrhquiwrq
+hhrqirq
+ea66 258 % tail t1.txt  [1@ [1@- [1@ [P[1@c [1@ [1@1
+
+ea66 259 % hexdump t1.txt
+0000000 6861 6167 6973 6867 7361 676f 670a 7361
+0000010 6768 7361 6769 6168 6973 670a 7361 6768
+0000020 7369 6861 6967 7361 0a67 6167 6873 6967
+0000030 7361 6768 6169 0a73 7165 7577 3965 7771
+0000040 6575 7771 6e0a 6e67 6173 7361 6268 6169
+0000050 0a73 6867 6868 6172 7268 7361 680a 7268
+0000060 7168 6975 7277 0a71 6868 7172 7269 0a71
+0000070
+ea66 260 % hexdump t1.txt[12G[2@tail -c 1[28G[12G[6Pcat[22G[12G[2@wc -w[24G[12GText Editor[K[12Gls ~/* | grep A | wc -w[17G[K[12Gman ascii2bin[12Gexit[Kwc -c t1.txt[12Gcat >[24G[12G[3Prm[21G[12Gls -a | grep A | wc -l[12Grm t1.txt[K[12G[3@cat >[24G[12Gwc -c[24G[12Gexit[Kman ascii2bin[12Gls ~/[K* | grep A | wc -w[12GText Editor[K[12Gwc -w t1.txt[12G[2Pcat[22G[12G[6@tail -c 1[28G[12G[2Phexdump[26G[12G[Khexdump t1.txt[12G[Khead -c 1 t1.txt | xxd -b
+00000000: 01100001                                               a
+ea66 261 % exit
+exit
+
+Script done on Fri 10 Jan 2020 04:49:49 PM EST
